@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite" verbose="5">
+<listeners>
+		<listener class-name="testng7.features.DataproviderListener"></listener>
+
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng7.features.DataDrivenTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

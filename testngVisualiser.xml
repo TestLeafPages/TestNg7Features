@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <listeners>
+    <listener class-name="testng7.features.VisualizationListener"/>
+  </listeners>
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="testng7.features.Test2"/>
+      <class name="testng7.features.Test1"/>
+      <class name="testng7.features.Test3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
